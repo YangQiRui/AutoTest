@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite>
+    <test name="param">
+        <classes>
+            <class name="com.course.testng.suite.LoginTest" />
+
+        </classes>
+    </test>
+</suite>
