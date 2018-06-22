@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.course.model">
+    <!-- 获取登录接口数据-->
+    <select id="loginData" parameterType="Integer" resultType="com.yhdx.wms.domain.LoginBean">
+        select userCode,password,warehouseId,appkey,expected
+        from login
+        where id = #{id}
+    </select>
+    <select id="reviewTaskData" parameterType="Integer" resultType="com.yhdx.wms.domain.ReviewTaskBean">
+        select code,pageIndex,pageSize,expected
+        from review_task
+        where id = #{id}
+    </select>
+    <select id="localReviewTaskData" parameterType="Integer" resultType="com.yhdx.wms.domain.LocalReviewTaskBean">
+        select code,pageIndex,pageSize,expected
+        from local_review_task
+        where id = #{id}
+    </select>
+</mapper>

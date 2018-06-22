@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="wms管理系统测试套件">
+    <test name="wms系统测试用例">
+        <classes>
+            <class name="com.yhdx.wms.cases.LoginCase"/>
+            <class name="com.yhdx.wms.cases.ReviewTaskCase"/>
+            <class name="com.yhdx.wms.cases.LocalReviewTaskCase"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.yhdx.wms.config.ExtentTestNGReporterListener"/>
+    </listeners>
+</suite>

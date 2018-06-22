@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.springfox:springfox-swagger-ui:$">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger-ui/$/springfox-swagger-ui-$.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger-ui/$/springfox-swagger-ui-$-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger-ui/$/springfox-swagger-ui-$-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
